@@ -1,6 +1,6 @@
 import React from "react";
 
-const styles = {
+const styles = {//포함관계
     wrapper: {
         margin:8,
         padding:8,
@@ -32,7 +32,7 @@ const styles = {
     },
 };
 
-function Comment(props) {
+function Comment(props) { 
     return (
 <div style={styles.wrapper}>
     <div style={styles.contentContainer}>
